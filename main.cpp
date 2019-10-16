@@ -19,7 +19,7 @@ void calcular(int k){
 			personas--;
 		}
 		if(personas==k){
-			ans[k-1]=saltos;
+			ans[k-1]=saltos+1;
 			return;
 		}
 		saltos++;
